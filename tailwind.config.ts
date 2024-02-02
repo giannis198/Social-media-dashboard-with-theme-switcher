@@ -12,22 +12,32 @@ const config = {
   theme: {
     container: {
       center: true,
-      padding: {
-        DEFAULT: '1rem',
-        md: '1.5rem',
-        lg: '2rem'
-      },
+      padding: '2rem',
       screens: {
-        '2xl': '1400px'
+        '2xl': '1440px'
       }
     },
     extend: {
       colors: {
+        VeryDarkBlue: 'hsl(230, 17%, 14%)', //(Light Text)
+        DarkGrayishBlue: 'hsl(228, 12%, 44%)', //(Light Text)
+        VeryPaleBlueTopBg: 'hsl(225, 100%, 98%)', //(Light Top BG Pattern)
+        VeryDarkBlueTopBg: 'hsl(232, 19%, 15%)', // (Dark Top BG Pattern)
+        DesaturatedBlue: 'hsl(228, 34%, 66%)',
+        LightToggle: 'hsl(230, 22%, 74%)',
+        DarkToggle: '(var(--clr-DarkToggle)',
+        YouTube: 'hsl(348, 97%, 39%)',
+        Instagram: 'linear gradient hsl(37, 97%, 70%) to hsl(329, 70%, 58%)',
+        Twitter: 'hsl(203, 89%, 53%)',
+        Facebook: 'hsl(208, 92%, 53%)',
+        BrightRed: 'hsl(356, 69%, 56%)',
+        LimeGreen: 'hsl(163, 72%, 41%)',
         border: 'hsl(var(--border))',
         input: 'hsl(var(--input))',
         ring: 'hsl(var(--ring))',
         background: 'hsl(var(--background))',
         foreground: 'hsl(var(--foreground))',
+        toggle: 'var(--toggle)',
         primary: {
           DEFAULT: 'hsl(var(--primary))',
           foreground: 'hsl(var(--primary-foreground))'
