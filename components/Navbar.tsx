@@ -11,13 +11,13 @@ const Navbar = () => {
           <h1 className='text-2xl font-bold text-VeryDarkBlue dark:text-white'>
             Social Media Dashboard
           </h1>
-          <p className='pb-10 text-base font-bold leading-relaxed  text-DarkGrayishBlue dark:text-DesaturatedBlue '>
+          <p className='pb-10 text-base font-bold leading-relaxed text-DarkGrayishBlue  dark:text-DesaturatedBlue md:pb-0'>
             Total Followers: 23,004
           </p>
         </div>
 
         <div className='pb-5 md:hidden'>
-          <Separator className='bg-DarkGrayishBlue opacity-50 ' />
+          <Separator className='bg-DarkGrayishBlue opacity-50' />
         </div>
         <ThemeSwitch />
       </div>

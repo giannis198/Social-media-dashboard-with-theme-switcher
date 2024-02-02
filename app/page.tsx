@@ -1,5 +1,4 @@
 import UserCard from '@/components/UserCard'
-
 import facebook from '../public/icon-facebook.svg'
 import instagram from '../public/icon-instagram.svg'
 import youtube from '../public/icon-youtube.svg'
@@ -125,8 +124,8 @@ const HomePage = () => {
     }
   ]
   return (
-    <section className='absolute left-1/2 top-44 w-full -translate-x-1/2 md:top-28'>
-      <div className='container py-10'>
+    <section className='absolute left-1/2 top-56 w-full -translate-x-1/2 md:top-28'>
+      <div className='container pb-10'>
         <div className='w-full grid-cols-4 items-center gap-x-10 space-y-5 pb-10 md:grid md:space-y-0'>
           {usersData.map(user => (
             <UserCard

@@ -5,7 +5,6 @@ import {
   CardHeader
 } from '@/components/ui/card'
 import Image, { StaticImageData } from 'next/image'
-import { ReactNode } from 'react'
 
 interface OverviewCardProps {
   icon: StaticImageData
@@ -27,7 +26,7 @@ export const OverviewCard = ({
   return (
     <>
       <Card className='p-6'>
-        <CardHeader className='flex-row items-center justify-between p-0 pb-4'>
+        <CardHeader className='flex-row items-center justify-between p-0 pb-6'>
           <CardDescription className='text-base font-bold text-DarkGrayishBlue dark:text-DesaturatedBlue'>
             {title}
           </CardDescription>

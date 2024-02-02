@@ -35,7 +35,7 @@
     --ring: 222.2 84% 4.9%;
 
     --radius: 0.5rem;
-    --clr-DarkToggle:                                                   
+    --clr-DarkToggle:                                                             
   ;
   }
 
@@ -78,6 +78,16 @@
   }
   body {
     @apply bg-background text-sm text-foreground;
+  }
+}
+
+@layer utilities {
+  .clr-instagram {
+    background-color: linear-gradient(
+      to right,
+      hsl(37, 97%, 70%),
+      hsl(329, 70%, 58%)
+    );
   }
 }
 
