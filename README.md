@@ -26,11 +26,16 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.png)
+![Desktop](public/screenshot.png)
+
+![Mobile](public/Mobile.png)
+
+![Desktop-dark](public/Desktop-dark.png)
+
+![Mobile-dark](public/Mobile-dark.png)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
 - Live Site URL: [Add live site URL here](https://your-live-site-url.com)
 
 ## My process
@@ -49,8 +54,7 @@ Users should be able to:
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
 - Frontend Mentor -
-  [@@giannis198](https://www.frontendmentor.io/profile/@giannis198)
+  [@giannis198](https://www.frontendmentor.io/profile/@giannis198)
 - Linkedin -
   [@ioannis nikitopoulos](https://www.linkedin.com/in/ioannis-nikitopoulos-547a99122/)
