@@ -35,7 +35,7 @@
     --ring: 222.2 84% 4.9%;
 
     --radius: 0.5rem;
-    --clr-DarkToggle:                                                                    
+    --clr-DarkToggle:                                                                        
   ;
   }
 
@@ -120,6 +120,7 @@
 
 .gridAuto {
   display: grid;
-  gap: 2rem;
+  column-gap: 2.5rem;
+  row-gap: 1rem;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
 }
