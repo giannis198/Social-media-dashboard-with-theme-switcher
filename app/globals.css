@@ -35,7 +35,7 @@
     --ring: 222.2 84% 4.9%;
 
     --radius: 0.5rem;
-    --clr-DarkToggle:                                                             
+    --clr-DarkToggle:                                                                    
   ;
   }
 
@@ -116,4 +116,10 @@
 
 .clr-positive {
   color: hsl(163, 72%, 41%);
+}
+
+.gridAuto {
+  display: grid;
+  gap: 2rem;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
 }

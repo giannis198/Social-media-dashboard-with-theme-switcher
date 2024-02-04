@@ -126,7 +126,7 @@ const HomePage = () => {
   return (
     <section className='absolute left-1/2 top-56 w-full -translate-x-1/2 md:top-28'>
       <div className='container pb-10'>
-        <div className='w-full grid-cols-4 items-center gap-x-10 space-y-5 pb-10 md:grid md:space-y-0'>
+        <div className='gridAuto w-full items-center gap-x-10 space-y-5 pb-10 md:space-y-0'>
           {usersData.map(user => (
             <UserCard
               influence={user.influence}
@@ -145,7 +145,7 @@ const HomePage = () => {
           <h2 className='pb-5 text-2xl font-bold text-DarkGrayishBlue dark:text-white'>
             Overview - Today
           </h2>
-          <div className='grid gap-5 gap-x-10 md:grid-cols-4'>
+          <div className='gridAuto'>
             {overviewData.map((data, index) => (
               <OverviewCard
                 key={index}
